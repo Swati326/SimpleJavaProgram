@@ -19,6 +19,7 @@ public class SwapNumWithoutTemp {
 		System.out.println("After Swapping");
 		System.out.println("FirstNumber="+ First_Num+"\tSecondNumber="+ Second_Num);
 		/*
+		 * 
 	 	another way
 		First_Num=First_Num*Second_Num;
 		Second_Num=First_Num/Second_Num;
