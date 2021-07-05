@@ -7,17 +7,17 @@ public class Prime {
 	{
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter number");
-		int count=0;
-		int n=sc.nextInt();
-		int i;
-		for(i=2;i<=n;i++)
+		int counter=0;
+		int number=sc.nextInt();
+		int start;
+		for(start=2;start<=number;start++)
 		{
-			if(n%i==0 && n%1==0)
+			if(number%start==0 && number%1==0)
 			{
-				count++;
+				counter++;
 			}
 		}
-		if(count==1)
+		if(counter==1)
 		{
 			System.out.println("yes,prime");
 		}

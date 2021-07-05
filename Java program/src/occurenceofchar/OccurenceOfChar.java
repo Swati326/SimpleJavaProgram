@@ -6,26 +6,26 @@ public class OccurenceOfChar {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-			int count=0,i;
+			int start,counter=0;
 			Scanner sc=new Scanner(System.in);
 			System.out.printf("enter any String to check occurence of character");
 			sc.nextLine();
-			String str=sc.nextLine();
-			char ch[]=str.toCharArray();
-			for(i=0;i<ch.length;i++)
+			String string=sc.nextLine();
+			char ch[]=string.toCharArray();
+			for(start=0;start<ch.length;start++)
 			{
-				count=1;
-				if(ch[i]!='z')	
+				counter=1;
+				if(ch[start]!='1')	
 				{
-				for(int j=i+1;j<ch.length;j++)
+				for(int j=start+1;j<ch.length;j++)
 				{
-					if(ch[i]==ch[j])
+					if(ch[start]==ch[j])
 				{
-					count++;
-					ch[j]='z';
+					counter++;
+					ch[j]='1';
 				}
 				}
-				System.out.printf("%c=%d\n",ch[i],count);
+				System.out.printf("%c=%d\n",ch[start],counter);
 			
 				}
 			}

@@ -4,11 +4,11 @@ public class PalindromStringApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int count=0,i;
+		int i,counter=0;
 		Scanner sc=new Scanner (System.in);
 		System.out.println("enter String to check whether the string is palindrome or not");
-		String s=sc.nextLine();
-		char ch[]=s.toCharArray();
+		String string=sc.nextLine();
+		char ch[]=string.toCharArray();
 		char ch1[]=new char[ch.length];
 		for( i=ch.length-1;i>=0;i--)
 		{
@@ -19,12 +19,12 @@ public class PalindromStringApp {
 		{
 			if(ch1[j]==ch[i])
 			{
-				count++;
+				counter++;
 			
 			}
 			j--;
 		}
-		if(count==ch.length)
+		if(counter==ch.length)
 		{
 			System.out.printf("string is palindrome");
 		}
