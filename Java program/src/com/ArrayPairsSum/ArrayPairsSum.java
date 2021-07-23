@@ -17,7 +17,6 @@ public class ArrayPairsSum {
 		for (i = 0; i < array.length; i++) {
 			array[i] = sc.nextInt();
 		}
-		
 		//here it checks the  number which we have provides is equal or not  with sum of another numbers present in array
 		//so the first element compare with all other elements in array similarly second compare with other so on..
 		//there is possibility of same elements may be contain in array so if we got pair then it set as -1 so it does not compare again.
