@@ -15,7 +15,7 @@ public class AnagramString {
 		char ch2[] = string_2.toCharArray();
 		/*
 		 * here checked whether the characters of first string are match with characters
-		 * of second string and if match the counter will increase.
+		 * of second string and if match the counter will increase.  
 		 */
 		for (i = 0; i < ch1.length; i++) {
 			for (j = 0; j < ch2.length; j++) {
